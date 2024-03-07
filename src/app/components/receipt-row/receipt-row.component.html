@@ -1,0 +1,22 @@
+<div [attr.data-gap]="gap" class="receipt-row">
+  <ng-container *ngIf="left; else leftTemplate">
+    <small class="receipt-text" style="text-align: left">
+      {{ left }}
+    </small>
+  </ng-container>
+  <ng-template #leftTemplate></ng-template>
+
+  <ng-container *ngIf="center; else centerTemplate">
+    <small class="receipt-text" style="text-align: center">
+      {{ center }}
+    </small>
+  </ng-container>
+  <ng-template #centerTemplate></ng-template>
+
+  <ng-container *ngIf="right; else rightTemplate">
+    <small class="receipt-text" style="text-align: right">
+      {{ right }}
+    </small>
+  </ng-container>
+  <ng-template #rightTemplate></ng-template>
+</div>

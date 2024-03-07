@@ -1,0 +1,192 @@
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 80mm;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+      }
+
+      .header-section {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+
+      .header-section h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .header-section p {
+        margin-top: 0;
+      }
+
+      .receipt-details-section {
+        display: flex;
+        flex-direction: column; /* Change to column layout */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+
+      .receipt-details-section div {
+        display: flex; /* Set inner divs to flex for row layout */
+        justify-content: space-between; /* Align key and value */
+      }
+
+      .bill-to-section {
+        margin-bottom: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+
+      .sales-receipt-section {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      .sales-receipt-section th,
+      .sales-receipt-section td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      .sales-receipt-section th {
+        background-color: #f2f2f2;
+      }
+
+      .subtotal-section {
+        margin-top: 8px;
+        border-top: 1px dashed black;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+
+      .subtotal-section-item {
+        display: flex; /* Set inner divs to flex for row layout */
+        justify-content: space-between; /* Align key and value */
+        padding-top: 4px;
+      }
+
+      .total-section {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+
+      .sub-footer-section {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+
+      .footer {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <h1>Dejavu Technologies Limited</h1>
+        <p>P.O BOX 12580 - NAIROBI<br />KENYA</p>
+      </div>
+      <div class="receipt-details-section">
+        <div>
+          <div>Receipt No:</div>
+          <div>DJV/2014/100545</div>
+        </div>
+        <div>
+          <div>Date:</div>
+          <div>2024-02-20</div>
+        </div>
+        <div>
+          <div>Payment Mode:</div>
+          <div>BANK REMITTANCE</div>
+        </div>
+      </div>
+      <div class="bill-to-section">
+        <div>Bill to:</div>
+        <div>Lilin Mucheru<br />TEL: 119318318<br />Nairobi</div>
+      </div>
+      <table class="sales-receipt-section">
+        <tr>
+          <th>Item</th>
+          <th>Qty</th>
+          <th>Rate</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Access PPA</td>
+          <td>2</td>
+          <td>10,000</td>
+          <td>20,000.00</td>
+        </tr>
+        <tr>
+          <td>Bonsai Dot Matrix Printer</td>
+          <td>5</td>
+          <td>13,000</td>
+          <td>65,000.00</td>
+        </tr>
+        <tr>
+          <td>Bonsai Dot Matrix Printer</td>
+          <td>2</td>
+          <td>14,000</td>
+          <td>28,000.00</td>
+        </tr>
+      </table>
+      <div class="subtotal-section">
+        <div class="subtotal-section-item">
+          <div>Subtotal:</div>
+          <div>80,900.00</div>
+        </div>
+        <div class="subtotal-section-item">
+          <div>Tax (16%):</div>
+          <div>4,500.00</div>
+        </div>
+      </div>
+      <div class="total-section">
+        <div>Total:</div>
+        <div>85,400.00</div>
+      </div>
+      <div class="sub-footer-section">
+        <p>
+          Payment Method: BANK REMITTANCE <br />
+          Thank you for your purchase.
+        </p>
+      </div>
+      <div class="footer">
+        <p>
+          Goods once sold cannot be reaccepted<br />
+          Thank you for your business!<br />
+          Visit us again soon!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Text -->
+<!-- Line -->
+<!-- Br -->
+<!-- Row -->
+<!-- Cut -->

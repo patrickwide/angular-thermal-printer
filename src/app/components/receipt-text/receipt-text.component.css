@@ -1,0 +1,22 @@
+.bold {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
+.invert {
+  background-color: black;
+  color: white;
+}
+.inline {
+  display: inline;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}

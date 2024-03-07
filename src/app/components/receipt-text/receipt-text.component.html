@@ -1,0 +1,16 @@
+<div
+  [ngClass]="{
+    bold: bold,
+    underline: underline,
+    invert: invert,
+    inline: inline,
+    left: align === 'left',
+    center: align === 'center',
+    right: align === 'right'
+  }"
+  [style.font-size.px]="font_size"
+>
+  <small>
+    <ng-content></ng-content>
+  </small>
+</div>

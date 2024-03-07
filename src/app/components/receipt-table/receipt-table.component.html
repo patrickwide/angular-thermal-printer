@@ -1,0 +1,16 @@
+<div class="sales-receipt-section">
+  <div class="row">
+    <div class="cell header-cell" *ngFor="let header of headers">
+      <small>
+        {{ header }}
+      </small>
+    </div>
+  </div>
+  <div class="row" *ngFor="let item of items">
+    <div class="cell" *ngFor="let data of item | keyvalue">
+      <small>
+        {{ data.value }}
+      </small>
+    </div>
+  </div>
+</div>

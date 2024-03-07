@@ -1,0 +1,17 @@
+.sales-receipt-section {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  padding-bottom: 2px;
+}
+
+.header-cell {
+  border-bottom: 1px dashed black;
+}

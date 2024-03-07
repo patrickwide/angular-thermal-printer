@@ -1,0 +1,11 @@
+.receipt-printer-host {
+  background-color: #edf4f6;
+  padding: 2px;
+}
+
+@page {
+  width: auto;
+  height: auto;
+  margin: 0;
+  border: 1px solid black;
+}
